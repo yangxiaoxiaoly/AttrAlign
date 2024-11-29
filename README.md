@@ -20,18 +20,18 @@ Initial DBP15K datasets are from JAPE(https://github.com/nju-websoft/JAPE). Init
 ## How to Run
 
 1. Run without LLM.
-   '''
+   ```
    python process_attr.py #get the attribute files
    python attr.py/attr_n.py/attr_v.py #get the alignment results with attribute information
    python combine_value.py #get the final result
-   '''
+  
 2. Run with LLM
    Download code from Seg_Align (https://github.com/ yangxiaoxiaoly/Seg-Align.).
    Install llama3
-   '''
+   ```
    python rerank_llama.py #get the rerank results
-   python get_llama_result.py #get the final results
-   '''
+   python get_llama_results.py #get the final results
+  
 
    
    
